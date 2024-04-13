@@ -1,0 +1,151 @@
+.MainContainer {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 44px 145px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 54px;
+    color: #fff;
+    font-family: "DM Sans";
+  }
+  .container1 {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 66px;
+  }
+  .MainContainer,
+.container1,
+.container2{
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.body,
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 62px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.body {
+  font-size: 22px;
+  letter-spacing: -0.04em;
+  line-height: 31px;
+  font-weight: 400;
+  font-family: "Inter";
+}
+
+.headMain,
+.headMainWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.headMain {
+  align-self: stretch;
+  gap: 25px;
+}
+.headMainWrap {
+  width: 540px;
+  max-width: 100%;
+}
+
+.appNightIcon {
+  align-self: stretch;
+  height: 100%;
+  max-width: 100%;
+  overflow: hidden;
+
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 100%;
+  transform: scale(1.071);
+}
+.container1 {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapperAppNight {
+  height: 678px;
+  width: 100%;
+  position: relative;
+  flex-shrink: 0;
+
+}
+.MainContainer {
+  align-self: stretch;
+  background: linear-gradient(
+    180deg,
+    #000,
+    rgba(93, 44, 168, 0.85) 57.83%,
+    #000
+  );
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 68px 62px 182px 46px;
+  box-sizing: border-box;
+  gap: 145px;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+}
+
+@media screen and (max-width: 1200px) {
+  .container1 {
+    gap: 33px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .h2 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+
+  .MainContainer {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-bottom: 94px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .body {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .MainContainer  {
+    padding-bottom: 55px;
+    box-sizing: border-box;
+    gap: 16px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+  .wrapperAppNight {
+    height: 270px;
+  }
+.appNightIcon {
+top: -10px;
+left: 3px;
+}
+}

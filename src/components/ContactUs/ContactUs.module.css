@@ -1,0 +1,190 @@
+.contactUsBody,
+.h2 {
+  position: relative;
+}
+.h2 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  letter-spacing: -0.06em;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.contactUsBody {
+  width: 447px;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 23px;
+  font-family: Inter;
+  color: #bbb;
+  display: inline-block;
+  max-width: 100%;
+}
+.contactUsHead {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.nameemailcom {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.textArea {
+  flex: 1;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11.5px 12px;
+  box-sizing: border-box;
+  min-width: 132px;
+}
+.getForFree {
+  position: relative;
+  letter-spacing: -0.02em;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 83px;
+}
+.buttons,
+.textWrap,
+.contactUsMain {
+  display: flex;
+  align-items: center;
+}
+.buttons {
+  border-radius: 10px;
+  background-color: #fff;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 15px;
+  white-space: nowrap;
+  color: #000;
+}
+.textWrap,
+.contactUsMain {
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textWrap {
+  width: 409px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  text-align: left;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+}
+.contactUsMain {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 40px;
+}
+.starIcon,
+.helix21Icon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: contain;
+  z-index: 1;
+}
+.starIcon {
+  width: 263px;
+  height: 263px;
+  top: 10px;
+  left: 49px;
+}
+.helix21Icon {
+  width: 268.5px;
+  height: 268.5px;
+  right: 46.3px;
+  bottom: 43.3px;
+}
+.contactUs,
+.contactUsWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.contactUs {
+  flex: 1;
+  flex-direction: column;
+  padding: 132px 330px;
+  position: relative;
+  gap: 10px;
+}
+.contactUsWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 15px;
+  text-align: center;
+  font-size: 54px;
+  color: #fff;
+  font-family: "DM Sans";
+  overflow-x: hidden;
+}
+@media screen and (max-width: 1050px) {
+  .h2 {
+    font-size: 43px;
+    line-height: 48px;
+  }
+  .starIcon {
+    width: 234px;
+    height: 234px;
+    top: 20px;
+    left: -80px;
+  }
+  .helix21Icon {
+    width: 225px;
+    height: 225px;
+    right: -76.3px;
+    bottom: 43.3px;
+    
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .contactUsMain {
+    gap: 20px;
+  }
+  .starIcon,
+.helix21Icon{
+    display: none;
+}
+  .contactUs {
+    padding: 86px 165px;
+    box-sizing: border-box;
+  }
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .contactUs {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+  .contactUs {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

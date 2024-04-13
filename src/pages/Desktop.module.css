@@ -1,0 +1,24 @@
+
+.desktop
+ {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.desktop {
+  width: 100%;
+  position: relative;
+  background-color: #000;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 15px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 14px;
+  color: #000;
+  font-family: "DM Sans";
+}
+

@@ -1,0 +1,180 @@
+.trustedByThe{
+    position: relative;
+}
+.Frame29{
+ align-self: stretch;
+ display: flex;
+ flex-direction: row;   
+ align-items: flex-start;
+ justify-content: center;
+ padding: 0 20px;
+}
+.acme{
+    width: 146px;
+    max-height: 100%;
+    min-height: 32px;
+}
+.quantum{
+    width: 146px;
+    max-height: 100%;
+    min-height: 32px;
+}
+.echo{
+    height: 28px;
+    max-width: 100%;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+.acme,.echo,.quantum{
+    object-fit: cover;
+    position: relative;
+    align-self: stretch;
+    display: flex;
+}
+
+.acmeWrap{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.9px 0 0;
+    box-sizing: border-box;
+}
+.quantumWrap{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.9px 0 0;
+    box-sizing: border-box;
+}
+
+.echoWrap{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.9px 0 0;
+    box-sizing: border-box;
+}
+.celestia{
+    align-self: stretch;
+    height: 28.1px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .celestiaWrap {
+    width: 115.4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.9px 0 0;
+    box-sizing: border-box;
+  }
+  .pulse {
+    align-self: stretch;
+    height: 22.3px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .pulseWrap {
+    width: 100.8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4.8px 0 0;
+    box-sizing: border-box;
+  }
+  .apex {
+    align-self: stretch;
+    height: 27.2px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+  }
+  .apexWrap {
+    width: 85.3px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2.4px 0 0;
+    box-sizing: border-box;
+  }
+  .Frame21Wrap {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px;
+  
+  }
+  .LogoTickerWrap,.LogoTicker{
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+  .LogoTickerWrap{
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 21px 164px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 14px;
+  color: #7a7a7a;
+  font-family: "Inter";
+  background-color: black;
+}
+
+.LogoTicker{
+    width: 1023.1px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 38px;
+  }
+
+
+
+
+  @media screen and (max-width: 1050px) {
+    .Frame21Wrap {
+      justify-content: center;
+      
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .LogoTicker {
+      gap: 19px;
+    }
+  }
+  @media screen and (max-width: 550px) {
+    .trustedByThe {
+      text-align: center;
+      font-size: 16px;
+    }
+
+    .LogoTickerWrap {
+height: 276px;
+padding: 0 5px 36px 5px;
+
+
+    }
+  
+  }

@@ -1,0 +1,73 @@
+.thisPageIs {
+    flex: 1;
+    display: inline-block;
+    min-width: 122px;
+  }
+  .icons,
+  .thisPageIs,
+  .viewTheComplete {
+    position: relative;
+  
+  }
+  .icons {
+    height: 12px;
+    width: 12px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .heroContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+  position: relative;
+    top: 0;
+    gap: 3px;
+  }
+  .thisPageIsIncludedInAFreParent {
+    width: 496px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 8.5px;
+    max-width: 100%;
+  }
+  .bar,
+  .desktop,
+  .thisPageIsIncludedInAFreParent {
+    display: flex;
+    box-sizing: border-box;
+    height: 40px;
+  }
+  .bar {
+    align-self: stretch;
+    background: linear-gradient(
+      90deg,
+      #feecff,
+      #fecaff 11.71%,
+      #feb5ff 26.8%,
+      #ffdbe7 40.18%,
+      #fff4d6 49.22%,
+      #f3fcd7 58.71%,
+      #d2f5ee 71.29%,
+      #c3efff 84.44%,
+      #fbefff
+    );
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 20px;
+    max-width: 100%;
+  }
+
+  
+  @media screen and (max-width: 650px) {
+  
+    .thisPageIs{
+      display: none;
+    }
+  .heroContent{
+    justify-content: center;
+  }
+  }
