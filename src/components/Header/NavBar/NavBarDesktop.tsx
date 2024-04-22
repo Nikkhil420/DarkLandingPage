@@ -1,9 +1,14 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent, useState } from "react";
 import styles from "./NavBarDesktop.module.css";
 
 
 
 const NavBarDesktop: FunctionComponent = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setMenuOpen((prevState) => !prevState);
+  };
   return (
     <header className={styles.navBarDesktop}>
       <div className={styles.logo}>
@@ -24,7 +29,8 @@ const NavBarDesktop: FunctionComponent = () => {
           src="/blackhorizontal1.png"
         />
       </div>
-      <div className={styles.stack}>
+      
+      <div className={menuOpen? styles.stackmob : styles.stack}>
         <div className={styles.about}>About</div>
         <div className={styles.features}>Features</div>
         <div className={styles.customers}>Customers</div>
@@ -35,7 +41,7 @@ const NavBarDesktop: FunctionComponent = () => {
         </div>
       </div>
       <div className={styles.menuIcon}>
-  <img  src="/menuIcon.png"  alt="" />
+  <img onClick={handleMenuToggle}  src="/menuIcon.png"  alt="" />
 </div>
 
     </header>

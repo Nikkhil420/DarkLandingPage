@@ -165,12 +165,33 @@
 }
 
 @media screen and (max-width: 530px) {
-  .stack {
-    display: none;
-  }
-  .menuIcon{
+  .menuIcon {
+    position: fixed;
     display: block;
+    cursor: pointer;
+    padding: 20px;
   }
+
+  
+ 
+  .stackmob {
+    height: 300px;
+     display: flex;
+     width: 33.33%;
+     align-items: center;
+     justify-content: space-around;
+    flex-direction: column;
+    position: absolute;
+    top: 100%; /* Position the menu below the menuIcon */
+    
+    right: 0;
+    background-color:  rgba(57, 56, 57, 0.8);
+    z-index: 1000; /* Ensure the menu appears above everything */
+    padding: 20px;
+    
+  }
+ 
+
 
 }
 
