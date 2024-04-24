@@ -14,7 +14,7 @@ const Webkit = () => {
         </div>
         <div className={styles.heroContent}>
           <div className={styles.viewTheComplete}>View the complete Kit</div>
-          <img className={styles.icons} alt="" src="/vector.png" />
+          <img className={styles.icons} alt="" src="/Vector.png" />
         </div>
       </div>
     </div>
